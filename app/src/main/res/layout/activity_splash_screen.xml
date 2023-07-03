@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".SplashScreenActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie_splash"
+        android:layout_width="@dimen/_267sdp"
+        android:layout_height="@dimen/_437sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_77sdp"
+        android:layout_marginTop="@dimen/_137sdp"
+        android:layout_marginEnd="@dimen/_67sdp"
+        android:layout_marginBottom="@dimen/_157sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation" />
+
+    <TextView
+        android:id="@+id/tv_to_do_app"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_95sdp"
+        android:layout_marginTop="@dimen/_350sdp"
+        android:fontFamily="@font/inria_serif"
+        android:text="To Do App"
+        android:textColor="@color/splah_text"
+        android:textSize="@dimen/_25ssp" />
+
+</RelativeLayout>
