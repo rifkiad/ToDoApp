@@ -29,4 +29,12 @@
         android:id="@+id/menu_delete_all"
         android:title="@string/delete_all"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:iconTint="@color/white"
+        android:title="@string/setting"
+        app:showAsAction="always" />
+
 </menu>
